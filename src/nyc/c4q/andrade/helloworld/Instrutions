@@ -1,0 +1,80 @@
+# Terminology Program
+
+
+It's an important aspect of programming to be able to communicate ideas about the language that you're working with. For this homework, you are to choose one of two approaches when it comes to writing a program that helps you to study java.
+
+Before we move on to more complicated programs we want to you try and create an environment of your own, for this homework we want you to use all of the tools we have `bean` ;p teaching you, wherever they may apply, if at all. These include but are not limited to `classes`, `local and global variables`, `methods`, `control structures`, and the various `data structures`.
+
+Try to approach your program with a couple of rules in mind.
+
+* keep things simple and well formatted (elegance in complexity).
+* Don't repeat code (modularity).
+* Keep your code clean and only add comments where necessary (legibility).
+
+If necessary sketch out your program in a piece of paper to help you work through the architecture you have in mind.
+
+Here are youre options:
+
+
+### Option 1: Java-Trainer
+Write a program that promps the user for a Java language term and outputs its meaning to the console.
+A sample of the program could look something like:
+```
+Hi, welcome to java-trainer 1.0. Type in a java term you would like to learn more about:
+
+>parameter
+
+- A parameter is the input of a method, the type of your input must match the one declared in said method when used.
+
+>quit
+
+-Thanks for using Java-trainer 1.0!
+
+```
+
+Requirements:
+
+* The program must have `5` or more technical Java terms with accurate definitions.
+* The program must ignore input capitalization and contain reasonably good error checking.
+* You must use at least one method in your program (remember to separate concerns) use classes if it makes sense to do so.
+* You must use at least one collections structure (List, ArrayList, Map) choose the most appropriate.
+* (extra credit) Easter eggs!
+
+
+### Option 2: Java-Quiz
+An alternative program would be a multiple choice question quiz where the user answers questions with numerical input, their correct answers are saved and they get a score at the end of the program:
+
+```
+Hi, welcome to java-quiz 1.0. Answer the following 5 questions with numerical input for a total score!
+
+Question 1: a Parameter is:
+1: a method call
+2: the input of a method
+3: a subclass of string
+
+>3
+
+-Whoanelly! let's read up on parameters!
+The correct answer is 2: the input of a method!
+
+```
+
+Requirements:
+
+ * The program must have 5 or more multiple choice questions with at least 3 options each.
+ * The program must ignore input capitalization and contain reasonably good error checking.
+ * You must use at least one method in your program (remember to separate concerns)use classes if it makes sense to do so.
+ * You must use at least one collections structure (List, ArrayList, Map) choose the most appropriate.
+ * (extra credit) Easter eggs!
+
+### Extra extra credit:
+Write a program that promps the user on which option they'd like to study with:
+
+```
+Hi, Welcome to Java-Master 1.0. What training method would you like to use?
+
+1: Java-Trainer
+2: Java-Quiz
+```
+
+Good luck, and as always; May the force be with you!
