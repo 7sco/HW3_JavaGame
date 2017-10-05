@@ -39,11 +39,11 @@ public class Java {
 
         map.put("abstract", "keyword for a method that has no body, and instead specifies a return type and a formal parameter list. An abstract method must be inside a class that is declared to be abstract. Instantiation is deferred to a subclass that implements the abstract method.\n" );
 
-        map.put("boolean", "primitive data type that can have the value true or false, but cannot be cast to a String, char, or int.\n" );
+        map.put("boolean", "Primitive data type that can have the value true or false, but cannot be cast to a String, char, or int.\n" );
 
-        map.put("array", "a collection of items of the same type, such as an int array.\n" );
+        map.put("array", "A collection of items of the same type, such as an int array.\n" );
 
-        map.put("break", "keyword for a branching command that is typically used to exit a loop. The loop condition can then be reevaluated.\n");
+        map.put("break", "Keyword for a branching command that is typically used to exit a loop. The loop condition can then be reevaluated.\n");
 
         if(map.containsKey(valueToLower)){
             return map.get(valueToLower);
