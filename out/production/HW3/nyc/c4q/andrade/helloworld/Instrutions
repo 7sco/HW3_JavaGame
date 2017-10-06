@@ -47,7 +47,7 @@ An alternative program would be a multiple choice question quiz where the user a
 ```
 Hi, welcome to java-quiz 1.0. Answer the following 5 questions with numerical input for a total score!
 
-Question 1: a Parameter is:
+Question 1: :
 1: a method call
 2: the input of a method
 3: a subclass of string
@@ -78,3 +78,28 @@ Hi, Welcome to Java-Master 1.0. What training method would you like to use?
 ```
 
 Good luck, and as always; May the force be with you!
+
+
+
+
+
+
+
+
+
+
+//        Quiz quiz[]= {
+//                new Quiz("A parameter is: ", "The input of a method"),
+//
+//                new Quiz("Which of the following statements is false about objects?", "Objects do not permit encapsulation"),
+//
+//                new Quiz("Which methods can access to private attributes of a class?", "Only methods those defined in the same class"),
+//
+//                new Quiz("Which of the following is not a return type?", "public"),
+//
+//                new Quiz("If result = 2 + 3 * 5, what is the value and type of ‘result’ variable?", "17, int")
+//        } ;
+//
+//                for(int i=0 ; i<quiz.length; i++ ){
+//                    //System.out.println( "Quest: "+quiz[i].getQuestion()+"\nAnsw: "+quiz[i].getAnswer());
+//                }

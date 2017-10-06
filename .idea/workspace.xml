@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11277e63-309f-47fc-ae29-ec9b3925e209" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HW3/nyc/c4q/andrade/helloworld/Java.class" afterPath="$PROJECT_DIR$/out/production/HW3/nyc/c4q/andrade/helloworld/Java.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HW3/nyc/c4q/andrade/helloworld/Main.class" afterPath="$PROJECT_DIR$/out/production/HW3/nyc/c4q/andrade/helloworld/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HW3/nyc/c4q/andrade/helloworld/Main.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions" afterPath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +22,11 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="102" column="61" lean-forward="true" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
+                <state relative-caret-position="1920">
+                  <caret line="117" column="66" lean-forward="false" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2725#2731#0" expanded="true" />
+                    <element signature="e#1943#1949#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -42,15 +39,15 @@
           <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1200">
-                  <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+                <state relative-caret-position="149">
+                  <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#729#737#0" expanded="true" />
-                    <element signature="e#843#851#0" expanded="true" />
-                    <element signature="e#1057#1065#0" expanded="true" />
-                    <element signature="e#1253#1261#0" expanded="true" />
-                    <element signature="e#1355#1363#0" expanded="true" />
+                    <element signature="e#737#745#0" expanded="true" />
+                    <element signature="e#900#908#0" expanded="true" />
+                    <element signature="e#1168#1176#0" expanded="true" />
+                    <element signature="e#1418#1426#0" expanded="true" />
+                    <element signature="e#1562#1570#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -59,8 +56,8 @@
           <file leaf-file-name="Instrutions" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="26" />
+                <state relative-caret-position="2055">
+                  <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -69,8 +66,8 @@
           <file leaf-file-name="Java.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="54" column="5" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="54" selection-end-column="5" />
+                <state relative-caret-position="484">
+                  <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -100,8 +97,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions" />
         <option value="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java" />
+        <option value="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions" />
         <option value="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java" />
         <option value="$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java" />
       </list>
@@ -211,7 +208,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -265,46 +262,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Instrutions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="2055">
+          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Java.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="102" column="61" lean-forward="true" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
+        <state relative-caret-position="484">
+          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2725#2731#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        <state relative-caret-position="149">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#729#737#0" expanded="true" />
-            <element signature="e#843#851#0" expanded="true" />
-            <element signature="e#1057#1065#0" expanded="true" />
-            <element signature="e#1253#1261#0" expanded="true" />
-            <element signature="e#1355#1363#0" expanded="true" />
+            <element signature="e#737#745#0" expanded="true" />
+            <element signature="e#900#908#0" expanded="true" />
+            <element signature="e#1168#1176#0" expanded="true" />
+            <element signature="e#1418#1426#0" expanded="true" />
+            <element signature="e#1562#1570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/andrade/helloworld/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="117" column="66" lean-forward="false" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1943#1949#0" expanded="true" />
           </folding>
         </state>
       </provider>
