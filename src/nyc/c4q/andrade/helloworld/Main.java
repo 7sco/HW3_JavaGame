@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         menu();
 
-        quiz();
+        //quiz();
     }
 
 
@@ -35,15 +35,16 @@ public class Main {
             }
 
 
-            else if(selection == 2){
+           if(selection == 2){
 
                 quiz();
+                System.out.println("Please make your choice:"+"\n1.Terms & Description. "+"\n2.Java Quiz."+"\n3.Exit");
+                selection = input.nextInt();
+                System.out.println();
 
 
+                //break;
 
-//                System.out.println("QUIZZ");
-//                System.out.println("Please make your choice:"+"\n1.Terms & Description. "+"\n2.Java Quiz."+"\n3.Exit");
-//                selection = input.nextInt();
             }
         }
 
@@ -67,6 +68,9 @@ public class Main {
     }
 
     public static void quiz(){
+        int score=0;
+
+
         System.out.println("Hi, welcome to java-quiz 1.0. Answer the following 5 questions with numerical input for a total score!");
         System.out.println();
 
@@ -97,30 +101,30 @@ public class Main {
             System.out.println("2. "+q.getAnswer());
             System.out.println("3. "+strg.get(1));
             //System.out.println(q.questionOptions((i+1)));
+            System.out.println();
             System.out.print("Enter your Choice: ");
             int ans = input.nextInt();
 
 
 
             while(ans!=1){
-                System.out.print("Try again,Enter your Choice: ");
+                score-=10;
+                System.out.println("WRONG!! Your current score is: "+score+"\n");
+                System.out.print("\nTry again,Enter your Choice: ");
                 ans = input.nextInt();
-                if(ans==1){
-
-                    System.out.println("Great you got it right, you get 10pts");
-
-                    break;
-                }
-
             }
-            System.out.println();
+
+            if(ans==1){
+
+                System.out.println("\nGreat you got it right, you get 10pts\n");
+                score+=10;
+                System.out.println("\nYour current score is: "+score+"\n");
+            }
 
         }
 
-
+        System.out.println("FINAL Score: "+score);
         //sorting answer order and getting theright naswer missing
-
-
 
     }
 
