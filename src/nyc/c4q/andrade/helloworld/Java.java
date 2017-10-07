@@ -9,10 +9,6 @@ public class Java {
     private String definitions;
 
 
-//    public Java() {
-//    }
-
-
     public String getTerms() {
         return terms;
     }

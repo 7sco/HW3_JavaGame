@@ -30,8 +30,7 @@ public class Quiz {
         this.answer = answer;
     }
 
-
-
+    
 
     public ArrayList<String> questionOptions(int num) {
 
@@ -61,76 +60,6 @@ public class Quiz {
     ArrayList<String> optionsQ5 = new ArrayList<String>(Arrays.asList("17, byte","25, byte","25, int" ));
         return optionsQ5;
         }
-
-
-
-
-
-
-
-
-
-
-
-//    if (answer.equals("The input of a method")){
-//        optionsQ1.add(answer);
-//        System.out.println(question);
-//        for (int i=0; i<optionsQ1.size(); i++)  {
-//            System.out.println(optionsQ1.get(i));
-//        }
-//
-//        return optionsQ1;
-//        //System.out.println();
-//    }
-//
-//    if (answer.equals("Objects do not permit encapsulation")){
-//        optionsQ2.add(answer);
-//        System.out.println(question);
-//        for (int i=0; i<optionsQ2.size(); i++)  {
-//            System.out.println(optionsQ2.get(i));
-//
-//        }
-//        System.out.println();
-//        return optionsQ2;
-//    }
-//
-//
-//    if (answer.equals("Only methods those defined in the same class")){
-//        optionsQ3.add(answer);
-//        System.out.println(question);
-//        for (int i=0; i<optionsQ3.size(); i++)  {
-//            System.out.println(optionsQ3.get(i));
-//
-//        }
-//        System.out.println();
-//        return optionsQ3;
-//    }
-//
-//    if (answer.equals("public")){
-//        optionsQ4.add(answer);
-//        System.out.println(question);
-//        for (int i=0; i<optionsQ4.size(); i++)  {
-//            System.out.println(optionsQ4.get(i));
-//
-//        }
-//        System.out.println();
-//        return optionsQ4;
-//    }
-//
-//    else if (answer.equals("17, int")){
-//        optionsQ5.add(answer);
-//        System.out.println(question);
-//        for (int i=0; i<optionsQ5.size(); i++)  {
-//            System.out.println(optionsQ5.get(i));
-//
-//        }
-//        System.out.println();
-//
-//        return optionsQ5;
-//    }
-//
-//        return optionsQ1;
-
 
 
 
