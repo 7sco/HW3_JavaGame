@@ -10,9 +10,7 @@ public class Main {
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-      //  menu();
-
+        menu();
 
         quiz();
     }
@@ -38,9 +36,14 @@ public class Main {
 
 
             else if(selection == 2){
-                System.out.println("QUIZZ");
-                System.out.println("Please make your choice:"+"\n1.Terms & Description. "+"\n2.Java Quiz."+"\n3.Exit");
-                selection = input.nextInt();
+
+                quiz();
+
+
+
+//                System.out.println("QUIZZ");
+//                System.out.println("Please make your choice:"+"\n1.Terms & Description. "+"\n2.Java Quiz."+"\n3.Exit");
+//                selection = input.nextInt();
             }
         }
 
