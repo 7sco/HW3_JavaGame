@@ -1,9 +1,6 @@
 package nyc.c4q.andrade.helloworld;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     //Scanner initiated and can be use throughout all the program
@@ -109,39 +106,87 @@ public class Main {
             System.out.println();
 
             //Shows all multimple choice answers
+            //INOUTS THE OPTIONS FROM THE  2 ELEMENT OF ARRAY LIST(1) INTP STRG
             ArrayList<String> strg= q.questionOptions((i+1));
 
+            //String has all options including the right one
+            strg.add(q.getAnswer());
+
+            //Random Order
+            Collections.shuffle(strg);
+
+            for (int j=0; j<strg.size();j++){
+                System.out.println((j+1)+". "+strg.get(j));
+            }
+
+/*
+
+//!!!!!!!!MAke this list RANDOM
             System.out.println("1. "+strg.get(0));
             System.out.println("2. "+q.getAnswer());
             System.out.println("3. "+strg.get(1));
+
+ */
+
             //System.out.println(q.questionOptions((i+1)));
             System.out.println();
 
             //Ask user to choose one
             System.out.print("Enter your Choice: ");
             int ans = input.nextInt();
+            //ans-=1;
+
+
+
+
+
+//INSTEAD OF ALWAYS CHECKING FOR 1 CHECK FOR THE RIGHT ANSWER
 
             //Checks for the right question, while is not right queep asking
             //If user gets it wrong score-10
-            while(ans!=1){
-                score-=10;
-                System.out.println("WRONG!! Your current score is: "+score+"\n");
-                System.out.print("\nTry again,Enter your Choice: ");
+
+            while(ans > strg.size()){
+                System.out.println("Wrong Selection out of options number");
+                System.out.println("Please enter right option #: ");
                 ans = input.nextInt();
+
             }
+
+
+            if(strg.get(ans-1).equals(q.getAnswer())){
+
+                System.out.println("\n\t\t\t\t\t\t\tGreat you got it right, you get 10pts\n");
+                score+=10;
+                System.out.println("\t\t\t\t\t\t\t1Your current score is: "+score+"\n");
+            }
+
+            else {
+                System.out.println("\n\t\t\t\t\t\t\tWRONG answer, you loose 10pts\n");
+                score-=10;
+                System.out.println("\t\t\t\t\t\t\tYour current score is: "+score+"\n");
+                System.out.println();
+            }
+
+
+//            while(ans!=1){
+//                score-=10;
+//                System.out.println("WRONG!! Your current score is: "+score+"\n");
+//                System.out.print("\nTry again,Enter your Choice: ");
+//                ans = input.nextInt();
+//            }
 
             //If user enters right question
             //Adds score+10
-            if(ans==1){
-
-                System.out.println("\nGreat you got it right, you get 10pts\n");
-                score+=10;
-                System.out.println("\nYour current score is: "+score+"\n");
-            }
+//            if(ans==1){
+//
+//
+//            }
 
         }
         //Print out final score
-        System.out.println("FINAL Score: "+score);
+        System.out.println("\t\t\t\t\t\t\t\tFINAL SCORE: "+score);
+        System.out.println();
+        System.out.println("\t\t\t\t\t\t\t\tGAME OVER!!!");
 
     }
 

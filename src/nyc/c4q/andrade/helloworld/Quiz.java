@@ -30,7 +30,7 @@ public class Quiz {
         this.answer = answer;
     }
 
-    
+
 
     public ArrayList<String> questionOptions(int num) {
 
