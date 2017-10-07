@@ -44,6 +44,7 @@ public class Main {
                 System.out.println("Please make your choice:"+"\n1.Terms & Description. "+"\n2.Java Quiz."+"\n3.Exit");
                 selection = input.nextInt();
                 System.out.println();
+                continue;
 
             }
         }
@@ -55,6 +56,15 @@ public class Main {
 
         //exit String initiated,  whenevr it changes to exit it will break the while loop and end the method
         String exit="";
+
+
+        System.out.println("Terms: \n" +
+                "\t\tParameter\n" +
+                "\t\tabstract\n" +
+                "\t\tboolean\n" +
+                "\t\tarray\n" +
+                "\t\tbreak\n");
+
 
         //Whilee loop will get user term input while it is not equal to exit
         //it returns the description whiile typed term is found in Java class & is not 'exit'
@@ -119,31 +129,13 @@ public class Main {
                 System.out.println((j+1)+". "+strg.get(j));
             }
 
-/*
 
-//!!!!!!!!MAke this list RANDOM
-            System.out.println("1. "+strg.get(0));
-            System.out.println("2. "+q.getAnswer());
-            System.out.println("3. "+strg.get(1));
-
- */
-
-            //System.out.println(q.questionOptions((i+1)));
             System.out.println();
 
             //Ask user to choose one
             System.out.print("Enter your Choice: ");
             int ans = input.nextInt();
             //ans-=1;
-
-
-
-
-
-//INSTEAD OF ALWAYS CHECKING FOR 1 CHECK FOR THE RIGHT ANSWER
-
-            //Checks for the right question, while is not right queep asking
-            //If user gets it wrong score-10
 
             while(ans > strg.size()){
                 System.out.println("Wrong Selection out of options number");
@@ -166,21 +158,6 @@ public class Main {
                 System.out.println("\t\t\t\t\t\t\tYour current score is: "+score+"\n");
                 System.out.println();
             }
-
-
-//            while(ans!=1){
-//                score-=10;
-//                System.out.println("WRONG!! Your current score is: "+score+"\n");
-//                System.out.print("\nTry again,Enter your Choice: ");
-//                ans = input.nextInt();
-//            }
-
-            //If user enters right question
-            //Adds score+10
-//            if(ans==1){
-//
-//
-//            }
 
         }
         //Print out final score
